@@ -1,9 +1,17 @@
-/* global */
+/* global         */
 @import url(./global/global.css);
+
+/* tipografia     */
+@import url(./utilidades/tipografia.css);
+
+/* cores          */
+@import url(./utilidades/cores.css);
+
+/* header         */
 @import url(./global/header.css);
 
-/* utilidades */
+/* utilidades     */
 @import url(./utilidades/componentes.css);
 
-/* home */
+/* home           */
 @import url(./home/introducao.css);
