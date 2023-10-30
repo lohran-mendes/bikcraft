@@ -1,9 +1,3 @@
-/* 
-fonts
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
-*/
-
 html {
   font-size: 62.5%;
 }
@@ -25,7 +19,8 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+blockquote {
   margin: 0px;
 }
 
