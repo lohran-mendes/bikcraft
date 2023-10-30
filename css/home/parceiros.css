@@ -1,0 +1,31 @@
+.parceiros {
+  /* padding-top: 30px; */
+}
+.parceiros h2 {
+  margin-bottom: 48px;
+}
+
+.parceiros-lista {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1400px;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+.parceiros-lista li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parceiros-lista li:nth-child(1n + 5) {
+  border-top: 2px solid var(--cor-2);
+}
+.parceiros-lista li {
+  border-right: 2px solid var(--cor-2);
+}
+.parceiros-lista li:nth-child(4n + 4) {
+  border-right: none;
+}
+.parceiros-lista li img {
+  padding: 32px;
+}

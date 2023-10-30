@@ -31,6 +31,7 @@
 .font-1-lg-b {
   font: 500 2.4rem/1.5 "roboto", sans-serif;
   text-transform: uppercase;
+  letter-spacing: 0.015em;
 }
 
 .font-1-lg {
@@ -64,6 +65,9 @@
 @media (max-width: 800px) {
   .font-0-xxl {
     font-size: 3.2rem;
+  }
+  .font-1-lg-b {
+    font-size: 1.6rem;
   }
 }
 
