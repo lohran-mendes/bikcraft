@@ -8,6 +8,9 @@ font-family: 'Roboto', sans-serif;
 .font-0-xxl {
   font: 600 6.4rem/1.125 "poppins", sans-serif;
 }
+.font-0-xl-b {
+  font: 600 3.6rem/0.8 "poppins", sans-serif;
+}
 
 .font-0-xl {
   font: 600 3.2rem/1.25 "poppins", sans-serif;
@@ -68,6 +71,12 @@ font-family: 'Roboto', sans-serif;
   }
   .depoimento .font-0-xl {
     font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  span.font-0-xl-b {
+    font-size: 2rem;
   }
 }
 

@@ -32,14 +32,24 @@
   color: #332200;
   padding: 16px 32px;
   background: linear-gradient(#ffbf00, #f2a50c);
-  border-radius: 5px;
+  border-radius: 4px;
   display: inline-block;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-  font: 600 1.8rem/1.333 "poppins", sans-serif;
+  font: 600 1.8rem/1.35 "Poppins", sans-serif;
+  width: max-content;
+  height: max-content;
 }
 
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.seguro-oferta .botao.secundario {
+  background: var(--cor-11);
+  color: var(--cor-0);
+}
+.seguro-oferta .botao.secundario:hover {
+  background: var(--cor-10);
 }
 
 @media (max-width: 600px) {
