@@ -96,4 +96,7 @@ font-family: 'Roboto', sans-serif;
   .font-0-md {
     font-size: 1.4rem;
   }
+  #bicicletas ul.font-0-md {
+    font-size: 1.8rem;
+  }
 }
