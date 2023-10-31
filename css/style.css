@@ -23,3 +23,6 @@
 
 /* seguros    */
 @import url(./seguros/seguro.css);
+
+/* termos */
+@import url(./termos/termos.css);

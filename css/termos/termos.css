@@ -1,0 +1,45 @@
+.termos-bg {
+  background-color: var(--cor-11);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.termos-conteudo {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.termos-conteudo h2 {
+  font: 600 3.2rem/1.35 "poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.termos-conteudo p {
+  font: 400 1.8rem/1.35 "roboto", sans-serif;
+  max-width: 75ch;
+}
+.termos-conteudo p:not(p:last-child) {
+  margin-bottom: 24px;
+}
+.termos-conteudo p:nth-child(4n):not(p:last-child) {
+  margin-bottom: 48px;
+}
+
+@media (max-width: 600px) {
+  .termos-conteudo p:not(p:last-child) {
+    margin-bottom: 40px;
+  }
+  .termos-conteudo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .termos-bg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .termos-bg span {
+    text-transform: lowercase;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}
