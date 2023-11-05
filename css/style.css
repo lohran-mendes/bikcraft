@@ -11,6 +11,7 @@
 
 /* utilidades     */
 @import url(./utilidades/componentes.css);
+@import url(./utilidades/formulario.css);
 
 /* home           */
 @import url(./home/introducao.css);
@@ -30,3 +31,10 @@
 
 /* termos */
 @import url(./termos/termos.css);
+
+/* orcamento */
+@import url(./orcamento/orcamento.css);
+
+/* contato */
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
