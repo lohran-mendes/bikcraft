@@ -20,6 +20,8 @@
   flex-direction: column;
   align-self: end;
   align-items: end;
+  background: url(../../img/dec/bottom-right-p.svg) no-repeat bottom 40px right
+    40px;
 }
 
 .depoimento-conteudo p {
@@ -49,6 +51,11 @@
   bottom: -58px;
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
 @media (max-width: 800px) {
   .depoimento {
     grid-template-columns: 1fr;

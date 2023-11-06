@@ -1,6 +1,7 @@
 #bicicletas .bicicletas-conteudo.container {
   padding-top: 0px;
   padding-bottom: 0px;
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
 }
 .bicicletas-bg {
   background-color: var(--cor-11);

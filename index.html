@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft - Bicicletas feitas sob medida.</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -16,7 +19,7 @@
 
   <header id="bikcraft" class="header-bg ">
     <div class="header container">
-      <a href="./index.html"> <img class="logo" src="./img/bikcraft.svg" alt="Logo escrito Bikcraft." width="136" height="32"></a>
+      <a href="./index.html"> <img class="logo" src="./img/bikcraft.svg" width="136" height="32" alt="Logo escrito Bikcraft." width="136" height="32"></a>
       <nav>
         <ul class="header-navegacao">
           <li><a class="cor-0 font-0-md" href="./bicicletas/bicicletas.html">Bicicletas</a></li>
@@ -35,9 +38,11 @@
         <p class="cor-5 font-1-lg">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="botao" href="./bicicletas/bicicletas.html">Escolha a sua</a>
       </div>
-      <div>
-        <img src="./img/fotos/introducao.jpg" alt="Imagem da bicicleta Nimbus.">
-      </div>
+      <picture>
+        <source media="(max-width: 800)" srcset="./img/bicicletas/nimbus.jpg">
+        <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Imagem da bicicleta Nimbus.">
+      </picture>
+
     </div>
   </main>
 
@@ -129,7 +134,7 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="botao secundario" href="./seguros/seguros.html">Inscreva-se</a>
+        <a class="botao secundario" href="./orcamento/orcamento.html">Inscreva-se</a>
       </div>
 
       <div class="seguro-oferta">
@@ -143,7 +148,7 @@
           <li>Desconto em parceiros</li>
           <li>Acesso ao Clube Bikcraft</li>
         </ul>
-        <a class="botao" href="./seguros/seguros.html">Inscreva-se</a>
+        <a class="botao" href="./orcamento/orcamento.html">Inscreva-se</a>
       </div>
     </div>
   </article>

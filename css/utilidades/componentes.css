@@ -6,6 +6,10 @@
   margin-right: auto;
 }
 
+.titulo {
+  background: url(../../img/dec/top-right.svg) no-repeat top 20px right 20px;
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p-0);
